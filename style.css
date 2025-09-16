@@ -1,0 +1,144 @@
+.navbar-hp {
+    background-color: #1abc9c !important;
+}
+
+nav.fixed-top {
+    z-index: 1050;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown>button {
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    border-top: solid 3px #198874;
+}
+
+.link-navbar,
+.dropdown-item {
+    transition: color 0.3s ease-in-out;
+}
+
+.link-navbar:hover:not(.contattaci) {
+    color: #b5e0d8 !important;
+}
+
+.dropdown-item:hover {
+    background-color: white;
+    color: #1abc9c !important;
+}
+
+.btn-contattaci {
+    border-color: white !important;
+    color: white;
+    background-color: #1abc9c;
+}
+
+.btn-contattaci:hover {
+    border-color: #b5e0d8 !important;
+    background-color: #198874 !important;
+    color: white;
+}
+
+ul.custom-bullets {
+    list-style-type: none;
+    padding-left: 1.5em;
+}
+
+ul.custom-bullets li::marker {
+    content: "\2705";
+    color: #28a745;
+    font-size: 1em;
+    margin-right: 0.5em;
+}
+
+.scrollspy-example {
+    position: relative;
+    /*height: 100vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;*/
+}
+
+.sticky-aside {
+    position: sticky;
+    top: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.sezioni-aside {
+    border-top: solid 5px #1abc9c;
+    background-color: #b5e0d8 !important;
+}
+
+.list-group-item-action {
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.list-group-item-action.active:hover {
+    background-color: #198874 !important;
+    border-color: #198874 !important;
+    color: white;
+}
+
+.list-group-item-action.active,
+.list-group-item-action:not(.active):hover {
+    background-color: #1abc9c !important;
+    border-color: #1abc9c !important;
+    color: white;
+}
+
+.icons-social a {
+    transition: color 0.3s ease-in-out;
+}
+
+.text-cpo,
+.icons-social a:hover {
+    color: #1abc9c !important;
+}
+
+.text-cpo-lower {
+    color: #b5e0d8;
+}
+
+.border-cpo {
+    border: 1px solid #1abc9c;
+}
+
+.img-studio-dentistico img {
+    filter: brightness(0.6);
+    transition: filter 0.3s ease-in-out;
+}
+
+.img-studio-dentistico:hover img {
+    filter: brightness(0.8);
+}
+
+.bg-offcanvas {
+    background-color: #198874;
+}
+
+@media (min-width: 992px) {
+    .space-custom {
+        padding-right: 48px;
+        padding-left: 48px;
+        margin-right: 48px;
+        margin-left: 48px;
+    }
+
+    .text-img {
+        color: #1abc9c !important;
+    }
+}

@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage | Centro Prenotazioni Online</title>
+    <link rel="icon" href="icons/favicon.ico">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+
+    <!-- Foglio di stile personalizzato -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="shadow" style="height: 64px;">
+        <nav class="fixed-top navbar-hp shadow" style="height: 64px;">
+            <div class="container h-100">
+                <div class="row w-100 h-100">
+                    <div class="col-lg-3 col-9 d-flex align-items-center h-100">
+                        <img src="images/cpo-logo.svg" alt="Logo Centro Prenotazioni Online" class="my-auto"
+                            style="width: 60px;">
+                        <p class="d-lg-none text-white h4 my-auto text-center">Centro Prenotazioni Online</p>
+                    </div>
+                    <div class="col-lg-9 col-3 d-flex h-100">
+                        <ul class="d-none d-lg-flex align-items-center justify-content-between text-white my-auto w-100"
+                            style="height: 64px; list-style-type: none;">
+                            <li class="dropdown">
+                                <a href="" class="text-decoration-none text-white h5 mb-0 link-navbar text-nowrap"
+                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Prodotti <i class="bi bi-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu shadow p-0 mt-2">
+                                    <li class="py-2 border-bottom">
+                                        <a class="dropdown-item"
+                                            href="https://www.quadernoelettronico.it/Prodotti/Windent/">
+                                            <strong>Windent</strong> | Studio Odontoiatrico
+                                        </a>
+                                    </li>
+                                    <li class="py-2 border-bottom">
+                                        <a class="dropdown-item"
+                                            href="https://www.quadernoelettronico.it/Prodotti/poliwin/">
+                                            <strong>Poliwin</strong> | Clinica Polispecialistica
+                                        </a>
+                                    </li>
+                                    <li class="py-2 border-bottom">
+                                        <a class="dropdown-item"
+                                            href="https://www.quadernoelettronico.it/Prodotti/winodlab/">
+                                            <strong>Winodlab</strong> | Laboratorio Odontotecnico
+                                        </a>
+                                    </li>
+                                    <li class="py-2">
+                                        <a class="dropdown-item" href="https://www.quadernoelettronico.it/Prodotti/">
+                                            Tutti i prodotti e gli aggiornamenti
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="" class="text-decoration-none text-white h5 mb-0 link-navbar" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Funzionalità <i class="bi bi-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu shadow p-0 mt-2">
+                                    <li class="py-2 border-bottom">
+                                        <a class="dropdown-item" href="https://www.quadernoelettronico.it/servizi/">
+                                            Servizi
+                                        </a>
+                                    </li>
+                                    <li class="py-2 border-bottom">
+                                        <a class="dropdown-item" href="https://www.quadernoelettronico.it/add_on/">
+                                            Add-on
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="" class="text-decoration-none text-white h5 mb-0 link-navbar" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Azienda <i class="bi bi-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu shadow p-0 mt-2">
+                                    <li class="py-2 border-bottom">
+                                        <a class="dropdown-item"
+                                            href="https://www.quadernoelettronico.it/info/chi-siamo/">
+                                            Chi siamo
+                                        </a>
+                                        <a class="dropdown-item"
+                                            href="https://www.quadernoelettronico.it/info/contatti/">
+                                            Contatti
+                                        </a>
+                                        <a class="dropdown-item"
+                                            href="https://www.quadernoelettronico.it/info/lavora-con-noi/">
+                                            Lavora con noi
+                                        </a>
+                                    </li>
+                                    <li class="py-2 border-bottom">
+                                        <a class="dropdown-item"
+                                            href="https://www.quadernoelettronico.it/info/partners/">
+                                            Partners
+                                        </a>
+                                        <a class="dropdown-item" href="https://www.quadernoelettronico.it/news/">
+                                            News
+                                        </a>
+                                    </li>
+                                    <li class="py-2">
+                                        <a class="dropdown-item" href="https://www.quadernoelettronico.it/riservato/">
+                                            <strong>Riservato</strong>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="">
+                                <a href="https://www.quadernoelettronico.it/corsi/"
+                                    class="text-decoration-none text-white h5 mb-0 link-navbar">
+                                    Corsi
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="https://www.quadernoelettronico.it/hardware/"
+                                    class="text-decoration-none text-white h5 mb-0 link-navbar">
+                                    Hardware
+                                </a>
+                            </li>
+                            <li class="btn btn-outline-primary rounded-4 py-2 btn-contattaci">
+                                <a href="https://www.quadernoelettronico.it/info/contatti/"
+                                    class="text-decoration-none px-2 fw-bold h5 mb-0 link-navbar contattaci">
+                                    Contattaci
+                                </a>
+                            </li>
+                        </ul>
+
+                        <button class="navbar-toggler d-lg-none ms-auto text-white border-0" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+                            <i class="bi bi-list-nested" style="font-size: 2rem;"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Offcanvas -->
+        <div class="offcanvas offcanvas-end bg-offcanvas" tabindex="-1" id="mobileMenu"
+            aria-labelledby="mobileMenuLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="mobileMenuLabel">Menu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body d-flex flex-column justify-content-between">
+                <ul class="list-unstyled text-white">
+                    <li class="mb-2">
+                        <strong class="h2 text-cpo-lower">Prodotti:</strong>
+                        <ul class="list-unstyled ms-3">
+                            <li><a href="https://www.quadernoelettronico.it/Prodotti/Windent/"
+                                    class="text-white text-decoration-none h5">Windent</a></li>
+                            <li><a href="https://www.quadernoelettronico.it/Prodotti/poliwin/"
+                                    class="text-white text-decoration-none h5">Poliwin</a></li>
+                            <li><a href="https://www.quadernoelettronico.it/Prodotti/winodlab/"
+                                    class="text-white text-decoration-none h5">Winodlab</a></li>
+                            <li><a href="https://www.quadernoelettronico.it/Prodotti/"
+                                    class="text-white text-decoration-none h5">Tutti i prodotti</a></li>
+                        </ul>
+                    </li>
+                    <li class="mb-2">
+                        <strong class="h2 text-cpo-lower">Funzionalità:</strong>
+                        <ul class="list-unstyled ms-3">
+                            <li><a href="https://www.quadernoelettronico.it/servizi/"
+                                    class="text-white text-decoration-none h5">Servizi</a></li>
+                            <li><a href="https://www.quadernoelettronico.it/add_on/"
+                                    class="text-white text-decoration-none h5">Add-on</a></li>
+                        </ul>
+                    </li>
+                    <li class="mb-2">
+                        <strong class="h2 text-cpo-lower">Azienda:</strong>
+                        <ul class="list-unstyled ms-3">
+                            <li><a href="https://www.quadernoelettronico.it/info/chi-siamo/"
+                                    class="text-white text-decoration-none h5">Chi siamo</a></li>
+                            <li><a href="https://www.quadernoelettronico.it/info/contatti/"
+                                    class="text-white text-decoration-none h5">Contatti</a></li>
+                            <li><a href="https://www.quadernoelettronico.it/info/lavora-con-noi/"
+                                    class="text-white text-decoration-none h5">Lavora con noi</a>
+                            </li>
+                            <li><a href="https://www.quadernoelettronico.it/info/partners/"
+                                    class="text-white text-decoration-none h5">Partners</a></li>
+                            <li><a href="https://www.quadernoelettronico.it/news/"
+                                    class="text-white text-decoration-none h5">News</a></li>
+                            <li><a href="https://www.quadernoelettronico.it/riservato/"
+                                    class="text-white text-decoration-none h5"><strong>Riservato</strong></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mb-2"><a href="https://www.quadernoelettronico.it/corsi/"
+                            class="text-white text-decoration-none h5">Corsi</a></li>
+                    <li class="mb-2"><a href="https://www.quadernoelettronico.it/hardware/"
+                            class="text-white text-decoration-none h5">Hardware</a></li>
+                    <li>
+                        <a href="https://www.quadernoelettronico.it/info/contatti/"
+                            class="btn btn-light mt-3 w-100 text-cpo fw-bold h3">
+                            Contattaci
+                        </a>
+                    </li>
+                </ul>
+                <div class="text-white">
+                    <p>Creato da © <strong>Quaderno Elettronico S.r.l</strong></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container scrollspy-example pb-5" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0"
+        tabindex="0">
+        <div class="row">
+            <main class="col-lg-9 col-12 py-3">
+                <section class="d-lg-none pb-5" id="riassunto-container"></section>
+                <section class="d-flex flex-column align-items-center pb-5" id="list-smart">
+                    <p class="display-6 text-center fw-bold">La segreteria è più SMART con Quaderno Elettronico</p>
+                    <img src="images/header-cpo.jpg" class="img-fluid" alt="">
+                    <div class="space-custom">
+                        <p>
+                            In uno studio medico moderno, la <strong>gestione del tempo e delle risorse</strong> è
+                            fondamentale.
+                            Per questo nasce l'idea rivoluzionaria di <strong>Quaderno Elettronico</strong>: progettare
+                            strumenti intelligenti atti a <strong>semplificare le attività quotidiane</strong>
+                            dello studio, <strong>ridurre il carico operativo</strong> e <strong>migliorare la
+                                comunicazione con i pazienti</strong>.
+                        </p>
+                        <br>
+                        <p>
+                            Dimentica le agende cartacee, le telefonate infinite e le lunghe attese in reception.
+                            Con <strong>Quaderno Elettronico</strong>, ogni fase del percorso del paziente — dalla
+                            prenotazione alla visita — viene <strong>automatizzata</strong> e gestita in modo
+                            <strong>fluido e integrato</strong>, lasciando più spazio alla <strong>relazione
+                                umana</strong> e alla <strong>qualità del servizio</strong>.
+                        </p>
+                        <br>
+                        <p>
+                            <strong>Prenotazioni online</strong>, <strong>conferme automatiche</strong>,
+                            <strong>raccolta dati digitalizzata</strong>, <strong>promemoria via email o SMS</strong>,
+                            <strong>schede anamnestiche precompilate</strong>, <strong>pagamenti e fatture</strong>
+                            gestiti con un clic:
+                            tutto è pensato per offrire <strong>un’esperienza moderna, efficiente e senza
+                                stress</strong> sia per il paziente che per lo staff.
+                        </p>
+                        <br>
+                        <p>
+                            E la cosa più bella? <strong>Non serve essere esperti di tecnologia</strong>.
+                            Il sistema è <strong>intuitivo</strong>, <strong>personalizzabile</strong> e si adatta alle
+                            <strong>reali esigenze del tuo studio</strong>, giorno dopo giorno.
+                        </p>
+                        <br>
+                        <p>
+                            Con <strong>Quaderno Elettronico</strong>, la tua segreteria diventa davvero
+                            <strong>smart</strong>.
+                            E tu puoi concentrarti su ciò che conta di più: <strong>prenderti cura dei tuoi
+                                pazienti</strong>.
+                        </p>
+                    </div>
+                </section>
+
+                <section class="d-flex flex-column align-items-center pb-5" id="list-vantaggi">
+                    <p class="display-6 text-center fw-bold">I Vantaggi di avere una segreteria più SMART</p>
+                    <div class="space-custom">
+                        <p>
+                            Attivare il <strong>Centro Prenotazioni Online</strong> significa rivoluzionare
+                            l’organizzazione dello studio e offrire ai pazienti un servizio moderno, rapido e
+                            completamente digitale.
+                            Non si tratta solo di una funzione aggiuntiva, ma di un vero e proprio <strong>cambio di
+                                passo nella gestione degli appuntamenti</strong>.
+                        </p>
+                        <br>
+                        <ul class="custom-bullets">
+                            <li class="ps-2"><strong>Disponibilità H24:</strong> i pazienti possono prenotare in
+                                qualsiasi momento, anche fuori dall’orario di apertura dello studio.</li>
+                            <li class="ps-2"><strong>Agenda sempre aggiornata:</strong> le prenotazioni vengono
+                                sincronizzate in tempo reale, evitando doppie prenotazioni o sovrapposizioni.</li>
+                            <li class="ps-2"><strong>Riduzione del carico sulla segreteria:</strong> meno telefonate,
+                                meno email e più tempo per gestire le attività davvero importanti.</li>
+                            <li class="ps-2"><strong>Migliore esperienza per il paziente:</strong> autonomia, chiarezza
+                                e rapidità nella prenotazione, con meno attese e più soddisfazione.</li>
+                            <li class="ps-2"><strong>Automazione dei dati:</strong> raccolta automatica di dati
+                                anagrafici e anamnestici per una gestione efficiente e senza errori.</li>
+                        </ul>
+                        <br>
+                        <p>
+                            Scegliere il <strong>Centro Prenotazioni Online</strong> vuol dire <strong>digitalizzare il
+                                tuo studio in modo intelligente</strong>, senza stravolgere le tue abitudini.
+                            Uno strumento potente, ma semplice da usare, che ti permette di <strong>risparmiare tempo,
+                                ridurre gli errori</strong> e offrire un servizio che i pazienti apprezzeranno fin dal
+                            primo utilizzo.
+                            <strong>Provalo subito</strong> e scopri quanto può essere più efficiente e sereno il tuo
+                            lavoro quotidiano!
+                        </p>
+                    </div>
+                </section>
+
+                <section class="d-flex flex-column align-items-center pb-5" id="list-prenotazione">
+                    <p class="display-6 text-center fw-bold">Come funziona la Prenotazione Online</p>
+                    <img src="images/come-prenotare.png" class="img-fluid" alt="">
+                    <div class="space-custom">
+                        <p>
+                            Prenotare un appuntamento non è mai stato così semplice, veloce e integrato.
+                            Con il <strong>Centro Prenotazioni Online</strong>, i pazienti accedono a un <strong>portale
+                                dedicato</strong> pensato appositamente per lo studio dentistico.
+                            Questo portale, sviluppato su misura e con una grafica coerente con quella del sito web
+                            dello studio, dà al paziente l’impressione di rimanere all’interno dello stesso ambiente
+                            digitale — <strong>familiare, rassicurante e professionale</strong>.
+                        </p>
+                        <br>
+                        <p>
+                            Una volta entrato nel portale, il paziente può iniziare la procedura di prenotazione
+                            scegliendo liberamente <strong>se partire dal nome del medico</strong> che desidera
+                            consultare oppure <strong>dal tipo di prestazione</strong> per cui vuole fissare un
+                            appuntamento.
+                        </p>
+                        <br>
+                        <p>
+                            A questo punto, il sistema mostra <strong>in tempo reale tutte le disponibilità</strong> in
+                            agenda, ordinate per data e orario.
+                            Il paziente seleziona lo slot più comodo tra quelli liberi — tutto <strong>senza telefonare,
+                                senza code, e senza attese</strong>.
+                        </p>
+                        <br>
+                        <p>
+                            Una volta scelto il giorno e l’orario, il paziente compila un semplice modulo con i propri
+                            dati personali e conferma l’appuntamento.
+                            Immediatamente, il sistema invia una <strong>mail di conferma</strong> al paziente e
+                            registra la prenotazione direttamente nell’<strong>agenda digitale dello studio</strong>,
+                            all’interno di Quaderno Elettronico.
+                        </p>
+                        <br>
+                        <p>
+                            Il personale non deve fare nulla: <strong>la prenotazione arriva già pronta</strong>, con
+                            tutte le informazioni necessarie.
+                            Nessun rischio di errori, nessun passaggio manuale.
+                            Il tutto avviene in modo <strong>trasparente, automatico e perfettamente integrato</strong>
+                            con le procedure già in uso nello studio.
+                        </p>
+                        <br>
+                        <p>
+                            Questa esperienza semplificata rappresenta non solo un vantaggio per il paziente, ma anche
+                            un importante passo avanti per lo studio:
+                            <strong>più efficienza, meno interruzioni e una gestione degli appuntamenti finalmente
+                                fluida e moderna</strong>.
+                        </p>
+                    </div>
+                </section>
+
+                <section class="d-flex flex-column align-items-center pb-5" id="list-guida">
+                    <p class="display-6 text-center fw-bold">Piccola Guida</p>
+                    <p class="fw-bold">Screenshot del Centro Prenotazioni Online</p>
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="images/Screenshot1.png" class="img-fluid" alt="">
+                        <p class="mb-5"><strong>Step 1</strong>: il paziente seleziona un Professionista o una
+                            prestazione.</p>
+                        <img src="images/Screenshot2.png" class="img-fluid" alt="">
+                        <p class="mb-5"><strong>Step 2</strong>: il paziente sceglie la data e l'rario tra quelli
+                            disponibili.</p>
+                        <img src="images/Screenshot3.png" class="img-fluid" alt="">
+                        <p class="mb-5"><strong>Step 3</strong>: viene richiesto di inserire i propri dati anagrafici.
+                        </p>
+                        <img src="images/Screenshot4.png" class="img-fluid" alt="">
+                        <p class="mb-5"><strong>Step 4</strong>: vengono mostrati i dati inseriti e viene chiesto di
+                            confermare.</p>
+                        <img src="images/Screenshot5.png" class="img-fluid" alt="">
+                        <p class="mb-5"><strong>Step 5</strong>: ultimo passaggio, il paziente visualizza la conferma di
+                            prenotazione e riceve anche una e-mail.</p>
+                    </div>
+                </section>
+
+                <section class="d-flex flex-column align-items-center pb-5" id="list-prova">
+                    <p class="display-6 text-center fw-bold">Richiedi ora una Prova Gratuita</p>
+                    <div class="space-custom">
+                        <p>
+                            Se è arrivato fin qui, è evidente il Suo interesse per una soluzione che possa realmente
+                            <strong>alleggerire la gestione quotidiana delle prenotazioni</strong>, ottimizzando tempi e
+                            risorse. <br><br>
+
+                            Il <strong>Centro Prenotazioni Online di Quaderno Elettronico</strong> è stato sviluppato
+                            proprio con questo obiettivo: <strong>semplificare e digitalizzare</strong> l'intero
+                            processo di prenotazione, offrendo a Lei e ai Suoi pazienti un'esperienza fluida,
+                            professionale e completamente automatizzata. <br><br>
+
+                            I Suoi pazienti potranno prenotare online in pochi click, anche al di fuori degli orari di
+                            apertura dello studio, ricevere conferme e promemoria automatici, mentre Lei potrà
+                            consultare in tempo reale l’agenda, ridurre drasticamente le chiamate in segreteria e
+                            minimizzare le assenze non giustificate. <br><br>
+
+                            <strong>Desideriamo offrirLe la possibilità di testare il sistema in prima persona</strong>,
+                            in totale tranquillità: <strong>per 30 giorni potrà utilizzare gratuitamente il Centro
+                                Prenotazioni Online</strong>, senza vincoli né obblighi di rinnovo. <br><br>
+
+                            Al termine del periodo di prova, sarà Lei a decidere se continuare a utilizzare l'addon,
+                            valutando liberamente i benefici ottenuti. <br><br>
+
+                            <strong>Per attivare subito la prova gratuita</strong> o per ricevere ulteriori
+                            informazioni, non esiti a contattarci telefonicamente al <a href="tel:055982476"
+                                class="fw-bold text-cpo">055982476</a> oppure cliccando <a
+                                href="https://www.quadernoelettronico.it/info/contatti/"
+                                class="fw-bold text-cpo">qui</a>. Siamo
+                            a Sua completa disposizione. <br><br>
+
+                            <strong>Ci contatti oggi stesso</strong> e scopra come migliorare l’organizzazione del Suo
+                            studio con uno strumento semplice, affidabile e pensato per i professionisti della salute.
+                        </p>
+                        <div class="position-relative img-studio-dentistico">
+                            <img src="images/studio-dentistico.jpg" class="img-fluid" alt="">
+                            <div
+                                class="position-absolute top-50 start-50 translate-middle w-100 h-100 p-3 d-flex flex-column justify-content-between">
+                                <p class="h2 text-dark text-img"><strong>Contattaci adesso</strong> e prova il
+                                    <strong>Centro
+                                        Prenotazioni Online</strong> per 30 giorni gratuitamente
+                                </p>
+                                <p class="btn btn-outline-primary rounded-4 py-3 btn-contattaci mb-0">
+                                    <a href="https://www.quadernoelettronico.it/info/contatti/"
+                                        class="text-decoration-none px-2 fw-bold h5 mb-0 link-navbar contattaci">
+                                        Contattaci ora
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <aside class="col-lg-3 d-none d-lg-block">
+                <div class="sticky-top shadow rounded-3" style="top: 300px;">
+                    <div id="list-example" class="list-group px-3 pb-5 pt-4 rounded-3 sezioni-aside">
+                        <p class="h5 text-cpo fw-bold mb-4">Sezioni riassuntive:</p>
+                        <a class="list-group-item list-group-item-action mb-3 rounded-3" href="#list-smart">La
+                            segreteria è più SMART</a>
+                        <a class="list-group-item list-group-item-action mb-3 rounded-3" href="#list-vantaggi">I
+                            Vantaggi</a>
+                        <a class="list-group-item list-group-item-action mb-3 rounded-3"
+                            href="#list-prenotazione">Prenotazione Online</a>
+                        <a class="list-group-item list-group-item-action mb-3 rounded-3" href="#list-guida">Piccola
+                            Guida</a>
+                        <a class="list-group-item list-group-item-action rounded-3" href="#list-prova">Prova
+                            Gratuita</a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <footer class="bg-dark py-5">
+        <div class="container text-white">
+            <div class="row">
+                <div class="col-12 pb-3">
+                    <img src="images/logo-qe.svg" class="img-fluid" alt="" style="width: 300px;">
+                </div>
+                <div class="col-4 col-lg-2 d-flex flex-column">
+                    <h3>Prodotti</h3>
+                    <a href="https://www.quadernoelettronico.it/Prodotti/Windent/"
+                        class="text-decoration-none text-white">Windent</a>
+                    <a href="https://www.quadernoelettronico.it/Prodotti/Poliwin/"
+                        class="text-decoration-none text-white">Poliwin</a>
+                    <a href="https://www.quadernoelettronico.it/Prodotti/Winodlab/"
+                        class="text-decoration-none text-white">Winodlab</a>
+                    <a href="https://www.quadernoelettronico.it/Prodotti/" class="text-decoration-none text-white">Tutti
+                        i prodotti</a>
+                </div>
+                <div class="col-4 col-lg-2 d-flex flex-column">
+                    <h3>Azienda</h3>
+                    <a href="https://www.quadernoelettronico.it/Info/Chi-siamo/"
+                        class="text-decoration-none text-white">Chi siamo</a>
+                    <a href="https://www.quadernoelettronico.it/Info/Contatti/"
+                        class="text-decoration-none text-white">Contatti</a>
+                    <a href="https://www.quadernoelettronico.it/Info/Partners/"
+                        class="text-decoration-none text-white">Partners</a>
+                    <a href="https://www.quadernoelettronico.it/Info/lavora-con-noi/"
+                        class="text-decoration-none text-white">Lavora con noi</a>
+                    <a href="https://www.quadernoelettronico.it/news/" class="text-decoration-none text-white">News</a>
+                    <a href="https://www.quadernoelettronico.it/info/codice-di-condotta/"
+                        class="text-decoration-none text-white">Codice di condotta</a>
+                </div>
+                <div class="col-4 col-lg-2 d-flex flex-column">
+                    <h3>Extra</h3>
+                    <a href="https://www.quadernoelettronico.it/Add_on/"
+                        class="text-decoration-none text-white">Add-on</a>
+                    <a href="https://www.quadernoelettronico.it/Servizi/"
+                        class="text-decoration-none text-white">Servizi</a>
+                    <a href="https://www.quadernoelettronico.it/hardware/"
+                        class="text-decoration-none text-white">Hardware</a>
+                    <a href="https://www.quadernoelettronico.it/corsi/"
+                        class="text-decoration-none text-white">Corsi</a>
+                    <a href="https://www.quadernoelettronico.it/riservato/"
+                        class="text-decoration-none text-white fw-bold">Riservato</a>
+                </div>
+                <div class="col-3 col-lg-2">
+                    <h3>Social</h3>
+                    <div class="d-flex flex-md-row flex-column align-items-center icons-social">
+                        <a href="https://www.linkedin.com/company/quaderno-elettronico-srl/"
+                            class="text-decoration-none text-white h4 pe-2"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://it-it.facebook.com/quadernoelettronico/"
+                            class="text-decoration-none text-white h4 pe-2"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/quadernoelettronico.it/"
+                            class="text-decoration-none text-white h4 pe-2"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCvFmwQyPp_4BttgB_KrVLeA"
+                            class="text-decoration-none text-white h4 pe-2"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-9 col-lg-4 d-flex flex-column">
+                    <h3>Contatti</h3>
+                    <p class="mb-0">Commerciale</p>
+                    <a href="tel:055982476" class="text-decoration-none text-cpo fw-bold"><i
+                            class="fa-solid fa-phone-flip pe-2"></i>055 982 476</a>
+                    <a href="mailto:commerciale@quadernoelettronico.it"
+                        class="text-decoration-none text-cpo fw-bold mb-3"><i
+                            class="fa-solid fa-envelope pe-2"></i>commerciale@quadernoelettronico.it</a>
+                    <p class="mb-0">Assistenza</p>
+                    <a href="tel:055 985 0486" class="text-decoration-none text-cpo fw-bold"><i
+                            class="fa-solid fa-phone-flip pe-2"></i>055 985 0486</a>
+                    <a href="mailto:commerciale@quadernoelettronico.it" class="text-decoration-none text-cpo fw-bold"><i
+                            class="fa-solid fa-envelope pe-2"></i>assistenza@quadernoelettronico.it</a>
+                </div>
+                <div class="col-12 border border-top-0 my-4"></div>
+                <div class="col-12 d-flex flex-column">
+                    <p>
+                        © 2022 :: Quaderno Elettronico S.r.l. <a href="https://www.quadernoelettronico.it/Privacy/"
+                            class="text-cpo-lower">Privacy</a>
+                    </p>
+                    <p class="mb-0">Quaderno Elettronico S.r.l.</p>
+                    <p class="mb-0">Sede legale: Montevarchi (AR) Via Carlo Cattaneo, 3 - P.Iva: 02072670512</p>
+                    <p class="mb-0">REA: AR - 159691 - Capitale sociale € 10.000 i.v.</p>
+                    <p class="mb-0">
+                        PEC: <a href="mailto:gino@pec.quadernoelettronico.it"
+                            class="text-cpo">gino@pec.quadernoelettronico.it</a>
+                    </p>
+                    <a href="https://www.agcom.it/provvedimenti/delibera-12-23-cir"
+                        class="text-cpo text-decoration-none">Delibera AGCOM</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+
+    <!-- Script personalizzato -->
+    <script src="script.js"></script>
+</body>
+
+</html>
