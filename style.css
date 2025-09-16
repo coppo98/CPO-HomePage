@@ -117,6 +117,10 @@ body {
     border: 1px solid #1abc9c;
 }
 
+.bg-cpo {
+    background-color: #1abc9c;
+}
+
 .img-studio-dentistico img {
     filter: brightness(0.6);
     transition: filter 0.3s ease-in-out;
@@ -139,6 +143,11 @@ body {
     }
 
     .text-img {
-        color: #1abc9c !important;
+        color: white !important;
+        text-shadow:
+            -1px -1px 0 black,
+            1px -1px 0 black,
+            -1px 1px 0 black,
+            1px 1px 0 black;
     }
 }
