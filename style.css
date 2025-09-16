@@ -150,4 +150,14 @@ body {
             -1px 1px 0 black,
             1px 1px 0 black;
     }
+
+    .text-header{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 991px) {
+    .text-header{
+        font-size: 35px;
+    }
 }
